@@ -45,12 +45,24 @@ USE ASSIGNMENTSQL;
 SELECT
     DEP_NUM,
     SUM(SALARY) AS TOTAL_SALAR_PAYOUT,
-    SUM(COMISSION) AS TOTAL_COMMISSION_PAYOUT 
+    SUM(COMISSION) AS TOTAL_COMMISSION_PAYOUT
 FROM
     EMP
 WHERE COMISSION IS NOT NULL
 GROUP BY
     DEP_NUM ;
+    
+    -- OR 
+ SELECT SUM(SALARY) , SUM(COMISSION) 
+FROM EMP
+GROUP BY DEP;   
+    
+    
+    
+    
+    
+    
+    
     
     SELECT
     SUM(commission) AS total_commission_payout
@@ -58,6 +70,65 @@ FROM
     sales
 WHERE
     commission IS NOT NULL;
+
+
+
+SELECT DEP_NUM,SR,DEP FROM EMP ;
+SELECT COUNT(SALARY), DEP
+FROM EMP
+GROUP BY SR;
+
+SELECT SUM(SALARY), DEP
+FROM EMP
+GROUP BY DEP;
+
+
+SELECT CONCAT(EMP_Fname, ' ', EMP_Lname) AS 'Name'
+FROM EMP
+WHERE COMISSION IS NULL 
+;
+
+
+SELECT CONCAT(EMP_Fname, ' ', EMP_Lname) AS 'Name', DEP_NUM AS Department_ID, 
+	CASE 
+	WHEN comission IS NULL THEN 'No commission'
+	ELSE EMP.COMISSION 
+	END AS Commission
+FROM emP ;
+
+SELECT CONCAT(EMP_Fname, ' ', EMP_Lname) AS 'Name', DEP_NUM AS Department_ID, 
+	CASE 
+	WHEN comission IS NULL THEN 'No commission'
+	ELSE EMP.COMISSION * 2
+	END AS Commission
+FROM emP ;
+
+
+
+SELECT CONCAT(EMP_Fname, ' ', EMP_Lname) AS 'Name', DEP_NUM AS Department_ID
+FROM EMP
+WHERE EXISTS (
+  SELECT *
+  FROM EMP 
+  WHERE  EMP_FNAME= EMP_FNAME 
+    
+);
+
+
+
+SELECT COUNT(EMP_FNAME), COUNT(DEP) ,DEP FROM EMP 
+ GROUP BY DEP ;
+ 
+ SELECT CONCAT(EMP_Fname, ' ', EMP_Lname) AS 'Name', DEP_NUM AS Department_ID
+FROM EMP
+WHERE EXISTS (
+ SELECT COUNT(EMP_FNAME), COUNT(DEP) ,DEP FROM EMP 
+ GROUP BY DEP 
+);
+ 
+ 
+
+
 
 
 
