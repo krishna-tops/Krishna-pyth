@@ -1,0 +1,41 @@
+1. What is software ?
+   software means  the set of programs, apllications and systems that are developed during the development process. it refers to software development life cycle.in this there are many  matters to be use like planning,analysis,design,implementation,testing,development and also maintenance
+   
+   softeware development process includes gathering,coding,debugging,integration and also testing.there are many tools to be used in software development like as project management software,tax editors,testing tools and so on.
+
+2. what is the types of apllications ?
+   There are  various types of applications in software development life cycle.
+       1)Mobile aplications
+       2)Web aplicationa
+       3)Cloud-based aplicationa
+       4)Desktop aplicationa
+       5)Gaming aplicationa
+       
+  1)Mobile aplications are like which aplications that run on mobile devices as smartphones and tablets.
+ 
+  2)Web aplicationa are which run through a web browser. that can be used for the purpose of e-comerce,online banking, and social media.
+
+  3)Cloud-based aplications are run on cloud platforms such as amazon web services,microsoft  or google aloud.
+  
+  4)Desktop aplications are run locally and installed on computers or laptop
+
+  5)Gaming aplications means which designed for entertainment purposes like games etc.
+
+3. What is programing ?
+   Programing means where actual coding takes place in software development life cycle.in the programing there is designing,coding,testing,and software aplications.
+   
+   In programing the implimentation of design and creates the actual software aplication meets the requirements in the analysis and design phase  
+    
+
+4. What is python ?
+   Python is a high level interpreted,object oriented,general purpose,most popular programing language.
+ 
+   python is created by "GUIDO VAN ROSSUM" in 1992 with the reference of the name of the cicuse name "MONTY'S PYTHON CIRCUSE" 
+
+   currently that latest version of Python by turn three and you have version of Python is Python 2 the main difference of Python 2 and Python 3 is in python 2 print works as a statement and whereas in Python 3 print works as a function
+
+   I think it is a higher level language and also it is very useful and also easy to understand and it is a general purpose language.
+   
+   In Python there are many operators like arithmetic operators,assignment operators,logical operators,comparison operators,identify operators,membership operators,and conditional statements.
+
+   
